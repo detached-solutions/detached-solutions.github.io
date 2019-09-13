@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 1024 1024"
+   id="za.co.detached.logo.svg"
+   version="0.0.1"
+   width="100%"
+	height="100%">
+  <style type="text/css">
+	#dtE&gt;path{stroke:#FFFFFF;stroke-width:8;fill:#7ba8b4;}
+	#dtE&gt;path:hover{fill:#9bc24a;}
+	#dtS{stroke:#9bc24a;stroke-width:128;stroke-linecap:round;}
+  </style>
+  <line
+     id="dtS"
+     x1="512"
+     y1="256"
+     x2="512"
+     y2="768" />
+  <g
+     id="dtE"
+     transform="rotate(41,512,512)">
+    <path
+       id="connSeg"
+       d="M 1024 512 A 512 512 0 0 1 512 1024 A 64 64 0 0 1 512 896 A 384 384 0 0 0 896 512 A 64 64 0 0 0 1024 512" />
+    <path
+       id="distSeg"
+       d="M 512 1024 A 512 512 0 0 1 0 512 A 64 64 0 0 1 128 512 A 384 384 0 0 0 512 896 A 64 64 0 0 0 512 1024" />
+    <path
+       id="hostSeg"
+       d="M 0 512 A 512 512 0 0 1 512 0 A 64 64 0 0 1 512 128 A 384 384 0 0 0 128 512 A 64 64 0 0 0 0 512" />
+    <path
+       id="collSeg"
+       d="M 512 0 A 512 512 0 0 1 1024 512 A 64 64 0 0 1 896 512 A 384 384 0 0 0 512 128 A 64 64 0 0 0 512 0" />
+  </g>
+</svg>

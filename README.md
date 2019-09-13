@@ -1,0 +1,1 @@
+# Detached GitLab Pages
