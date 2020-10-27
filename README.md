@@ -1,1 +1,1 @@
-# Detached Development Pages
+# Detached GitLab Pages
