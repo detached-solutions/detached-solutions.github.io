@@ -9,19 +9,37 @@
 
 html,
 body {
-  padding: 0;
+  height: 100%;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 body {
+  align-items: center;
   display: flex;
-  width: 100vw;
   height: 100vh;
+  justify-content: center;
+  min-height: 128px;
+  min-width: 128px;
   overflow: hidden;
+  width: 100vw;
 }
 
 body > object {
   flex: 1;
-  padding: 1em;
   animation: spin 8s infinite linear;
+}
+
+@media (orientation: landscape) {
+  body > object {
+    height: 100vh;
+    width: 100vh;
+  }
+}
+@media (orientation: portrait) {
+  body > object {
+    height: 100vw;
+    width: 100vw;
+  }
 }

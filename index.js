@@ -1,5 +1,3 @@
-console.log('Still working on it...');
-
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker
