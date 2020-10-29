@@ -1,1 +1,1 @@
-# Detached GitLab Pages
+# Detached GitHub Pages
